@@ -1,0 +1,7 @@
+" nnoremap - Normal Mode 映射：这个命令用于在 Normal Mode（普通模式）下创建键盘映射。这意味着当您在普通模式下按下键盘上的指定组合时，将触发所定义的操作。
+" inoremap - Insert Mode 映射：这个命令用于在 Insert Mode（插入模式）下创建键盘映射。这允许您在编辑文本时定义按键组合的行为。
+" nmap - Normal Mode 和 Visual Mode 映射：这个命令用于在 Normal Mode 和 Visual Mode 下创建键盘映射。这意味着它会影响普通模式和可视模式下的按键行为。
+" vmap - Visual Mode 映射：这个命令用于在 Visual Mode（可视模式）下创建键盘映射。它会影响到在可视模式下选择文本时的按键操作。
+" imap - Insert Mode 和 Command-Line Mode 映射：这个命令用于在 Insert Mode 和 Command-Line Mode（命令行模式）下创建键盘映射。它允许您自定义插入模式和执行命令时的按键行为。
+" map - 通用映射：这个命令用于创建通用的键盘映射，会影响到多个模式（Normal Mode、Visual Mode、Insert Mode、Command-Line Mode）。这种映射可能会导致一些不直观的行为，因此需要谨慎使用。
+" 更多发现: https://jb.gg/share-ideavimrc
