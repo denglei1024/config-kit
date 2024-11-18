@@ -1,0 +1,20 @@
+[core]
+	quotepath = off
+	autocrlf = input
+[alias]
+	st = status
+	co = checkout
+	ci = commit
+	br = branch
+	ll = log --oneline
+	cm = commit -m
+[user]
+	email = denglei1024@foxmail.com
+	name = denglei
+[gui]
+	encoding = utf-8
+[i18n "commit"]
+	encoding = utf-8
+[i18n]
+	logoutputencoding = utf-8
+	commitencoding = utf-8
