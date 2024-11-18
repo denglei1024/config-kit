@@ -5,3 +5,24 @@
 " imap - Insert Mode 和 Command-Line Mode 映射：这个命令用于在 Insert Mode 和 Command-Line Mode（命令行模式）下创建键盘映射。它允许您自定义插入模式和执行命令时的按键行为。
 " map - 通用映射：这个命令用于创建通用的键盘映射，会影响到多个模式（Normal Mode、Visual Mode、Insert Mode、Command-Line Mode）。这种映射可能会导致一些不直观的行为，因此需要谨慎使用。
 " 更多发现: https://jb.gg/share-ideavimrc
+
+" basic stuff
+set hlsearch
+set scrolloff=10
+set ignorecase smartcase
+set showmode
+set history=1000
+set incsearch
+set clipboard+=unnamed
+set relativenumber
+set ReplaceWithRegister
+set visualbell
+set idearefactormode=visual
+set showcmd
+set showmode
+set ideastatusicon=gray
+set virtualedit=onemore
+
+
+" Exit Insert Mode
+inoremap jk <ESC>
