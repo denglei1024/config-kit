@@ -24,6 +24,14 @@ set showmode
 set ideastatusicon=gray
 set virtualedit=onemore
 
+" enable the which-key plugin
+set which-key
+" enable the easymotion plugin
+set easymotion
+" disable the timeout option
+set notimeout
+" increase the timeoutlen(default: 1000)
+set timeoutlen=10000
 
 " exit insert mode
 inoremap jk <ESC>
