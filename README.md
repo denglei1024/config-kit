@@ -7,6 +7,7 @@
 
 ## 目录结构
 
+```
 config-kit/
 ├── git/
 │ ├── .gitconfig # Git 全局配置（用户名、别名等）
@@ -16,3 +17,4 @@ config-kit/
 ├── sdk/
 │ └── global.json # SDK/CLI 工具全局配置（如 .NET Core）
 └── README.md
+```
