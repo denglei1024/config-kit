@@ -1,5 +1,20 @@
 nmap <leader>9 :source ~/.ideavimrc<CR>
 
+" 设置leader键为空格键
+let mapleader=" "
+
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+set number
+set relativenumber
+set clipboard=unnamed
+set NERDTree
+set ReplaceWithRegister
+set which-key 
+set notimeout
+
 
 let g:WhichKey_ShowTypedSequence = 0
 let g:WhichKey_ShowVimActions = "true"
@@ -7,6 +22,18 @@ let g:WhichKey_ShowVimActions = "true"
 " location
 nmap <C-o> <Action>(Back)
 nmap <C-i> <Action>(Forward)
+
+
+imap jk <Esc>
+map <C-j> <Esc>
+
+
+" 移动优化
+map H ^
+map L $
+map J }
+map K {
+
 
 
 " bookmark
@@ -43,8 +70,6 @@ nmap <leader>v <Action>(VcsGroups)
 " 重构
 nmap <leader>rn <Action>(RenameElement)
 nmap <leader>re <Action>(Refactorings.QuickListPopupAction)
-nmap <leader>uw <Action>(Unwrap)
-xmap <leader>sw <Action>(SurroundWith)
 nmap <leader>sd <Action>(SafeDelete)
 nmap <leader>oi <Action>(OptimizeImports)
 
@@ -131,5 +156,8 @@ nmap <leader>so <Action>(SelectAllOccurrences)
 nmap <leader>gc <Action>(Generate)
 nmap <leader>gt <Action>(GoToTest)
 
-set which-key 
-set notimeout
+xnoremap < <gv
+xnoremap > >gv
+
+nmap <C-a> ggVG"+y
+
